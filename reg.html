@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>
+REGISTRATION FORM</title>
+</head>
+<body><center>
+<h3>STUDENT REGISTRATION FORM</h3>
+<form name="stdrgform" method="get">
+<table border="2" cellpadding="10">
+<tr><td>First Name</td>
+<td><input type="text"name="firstname"maxlength="30"></td></tr>
+<tr><td>Last Name</td>
+<td><input type="text"name="lastname"maxlength="30"></td></tr>
+<tr><td>DATE OF BIRTH</td>
+<td><select>
+<option>1</option>
+<option>2</option>
+<option>12</option>
+<option>25</option>
+</select>
+<select>
+<option>month</option>
+<option>jan</option>
+<option>feb</option>
+<option>dec</option>
+</select>
+<select>
+<option>year</option>
+<option>1997</option>
+<option>1998</option>
+<option>2009</option>
+</select>
+</td></tr>
+<tr><td>email id</td>
+<td><input type="email" name="email">
+</td><tr>
+<td>mob num</td>
+<td><input type="text" name="mobnum" pattern="[7-9]{1}[0-9]{9}" minlength="10" maxlength="10">
+</td></tr>
+<tr><td>gender</td>
+<td>male<input type="radio"name="gender" value="male">
+female<input type="radio"name="gender" value="female">
+</td></tr>
+<tr><td>ADDRESS
+</td>
+<td><textarea rows="5" cols="40">
+</textarea></td>
+<tr><td>CITY</td>
+<td><input type="text"name="city" maxlength="30">
+</td></tr>
+<tr><td>pincode</td>
+<td><input type="number"name="pincode" minlength="6" maxlength="6">
+</td></tr>
+<tr><td>state</td>
+<td><input type="text"name="city"  maxlength="30">
+</td></tr>
+<tr><td>country</td>
+<td><input type="text"name="country"  maxlength="30">
+</td></tr>
+<tr><td>hobbies</td>
+<td>drowing<input type="checkbox"name="drowing" value="on">
+<td>dancing<input type="checkbox"name="dancing" value="on">
+<td>singing<input type="checkbox"name="singng" value="on">
+<td>skeching<input type="checkbox"name="skeching" value="on">
+<td>others<input type="checkbox"name="others" value="on">
+<input type="text"name="hobbies"></td></tr>
+<tr rowspan="5"><td>
+qualification</td>
+<table>
+<tr><th>serialno</th>
+<th>examination</th>
+<th>board</th>
+<th>percntage</th>
+<th>yearof passing</th>
+</tr>  <tr>
+<td>1</td>
+<th>class x</th>
+<td><input type="text"name="board"></td>
+<td><input type="number"name="percentage"></td>
+<td><input type="number"name="year"></td>
+</tr>
+<tr>
+<th>2</th>
+<th>class x11</th>
+<td><input type="text"name="board"></td>
+<td><input type="number"name="percentage"></td>
+<td><input type="number"name="year"></td>
+</tr>
+<tr>
+<th>3</th>
+<th>graduation</th>
+<td><input type="text"name="board"></td>
+<td><input type="number"name="percentage"></td>
+<td><input type="number"name="year"></td>
+</tr>
+<th>4</th>
+<th>master</th>
+<td><input type="text"name="board"></td>
+<td><input type="number"name="percentage"></td>
+<td><input type="number"name="year"></td>
+</tr>
+<tr>
+<td>  </td>
+<th>  </th>
+<td>  </td>
+<td>  </td>
+<td>  </td>
+</tr.
+</table>
+<tr><td>courses applied for</td>
+<td>MCA <input type="radio" name="course"value="mca">
+mtec <input type="radio" name="course"value="mtec">
+Msc<input type="radio" name="course"value="msc">
+phd <input type="radio" name="course"value="phd">
+</td>
+</tr>
+<tr> <td>type your password</td>
+<td><input type="password</td>
+</tr>
+<tr><td>upload your photo</td></tr>
+<td><input type="file"></td></tr>
+<tr><td>date of tc</td>
+<td><input type="date"name="date">
+</td>
+</tr>
+<tr><td colspan="2"><center>
+<input type="submit"name="submit"value="submit">
+<input type="reset"name="reset"value="reset">
+</td>
+<tr>
+</center>
+</body>
+</html>

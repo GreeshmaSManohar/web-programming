@@ -1,0 +1,21 @@
+<html>
+<body>
+<script>
+function light(sw){
+var pic;
+if(sw==0){
+pic="bulbbe.gif"
+}else{
+pic="bulbon.gif"
+}
+document.getElementById('myimage').src=pic;
+}
+</script>
+<img id ="myimage"src="bulbbe.gif"width="100" height="180">
+<p>
+<button type="button"onclick="light(1)">light on</button>
+<button type="button"onclick="light(0)">light off</button>
+</p>
+</body>
+</html>
+	
